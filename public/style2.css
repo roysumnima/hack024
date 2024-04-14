@@ -1,0 +1,80 @@
+
+body {color: whitesmoke;
+  padding: 5px;
+  background-image: url(https://live.staticflickr.com/7307/9257261412_cec8f52f8a_c.jpg);
+}
+
+.circular_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+
+}
+
+.topbar {
+  display: flex;
+  max-width: 500px;
+  height: 60px;
+  margin: 10px;
+}
+
+.topbar img {
+  width: auto;
+  height: 100%;
+  margin-right: 10px;
+}
+
+#weatherbar {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5a0d3984-b08a-47e0-9198-0f1f747cfd69/d1ycngw-30549243-b350-4f00-b80c-456749f6fb41.jpg/v1/fill/w_800,h_1067,q_75,strp/sunset_gradient_by_vjun_d1ycngw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA2NyIsInBhdGgiOiJcL2ZcLzVhMGQzOTg0LWIwOGEtNDdlMC05MTk4LTBmMWY3NDdjZmQ2OVwvZDF5Y25ndy0zMDU0OTI0My1iMzUwLTRmMDAtYjgwYy00NTY3NDlmNmZiNDEuanBnIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hI-zRZZZ0rBs4a0XA1qSPkxsmhKhwKLxEFmDlfeYBGs);
+}
+
+
+.cell {
+  display: flex;
+  max-width: 500px;
+  height: auto;
+  margin: 10px;
+
+}
+.cell img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.cell_text {
+  padding-top: 30px;
+}
+
+.main_info {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+iframe {
+  margin: 10px 50px 0px 50px;
+  width: 400px;
+  height: 360px;
+}
